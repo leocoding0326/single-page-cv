@@ -1,0 +1,38 @@
+
+/*=== Fonts ===*/
+
+
+@font-face {
+    font-family: "header-h1";
+    src: url(./media/fonts/Sirivennela-Regular.ttf);
+    src: url(./media/fonts/Sirivennela-Regular.woff2);
+    src: url(./media/fonts/Sirivennela-Regular.woff);
+}
+
+/*==== Header Section ====*/
+
+.personal-info {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px;
+    gap: 40px;
+}
+
+.personal-info img {
+    height: 220px;
+    width: 170px;
+    border-radius: 50%;
+}
+
+.personal-info h1 span {
+    color: lightgreen;
+}
+
+/*== Universal Rules ==*/
+
+h1 {
+    font-family: "header-h1", 'Courier New', Courier, monospace;
+    font-size: 40px;
+}
